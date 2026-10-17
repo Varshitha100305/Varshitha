@@ -705,7 +705,6 @@ function Portfolio() {
                     rel="noreferrer"
                     className="inline-flex items-center gap-1 text-xs font-mono text-rose-400 hover:text-rose-300 transition-colors group/link"
                   >
-                    Verify <ExternalLink size={12} className="transition-transform group-hover/link:translate-x-0.5" />
                   </a>
                 </div>
               </div>
@@ -751,7 +750,7 @@ function Portfolio() {
             <Cpu size={14} className="text-rose-400" /> Nalagatla Sai Varshitha
           </span>
           <span className="font-mono text-xs text-slate-500">
-            © {new Date().getFullYear()} — Built with Intent
+            © {new Date().getFullYear()} 
           </span>
         </div>
       </footer>
